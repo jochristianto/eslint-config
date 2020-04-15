@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-jochristianto-base",
   "version": "0.0.1",
-  "description": "My Base ESLint Config",
+  "description": "Jonathan's Base ESLint Config",
   "main": "index.js",
   "repository": {
     "type": "git",
