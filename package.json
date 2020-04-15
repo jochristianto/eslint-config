@@ -1,6 +1,6 @@
 {
   "name": "@jochristianto/eslint-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Jonathan's Base ESLint Config",
   "main": "index.js",
   "repository": {
