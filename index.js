@@ -7,20 +7,23 @@ module.exports = {
     "plugin:vue/strongly-recommended",
     "plugin:vue/recommended",
   ],
+  plugins: ["import", "nuxt"],
   rules: {
     // Disabled
     "func-names": "off",
-    "import/no-extraneous-dependencies": "off",
-    "import/no-unresolved": "off",
     "linebreak-style": "off",
     "max-len": "off",
+    "sort-keys": "off",
+
+    // Disabled - Scoped
+    "import/no-extraneous-dependencies": "off",
+    "import/no-unresolved": "off",
     "nuxt/no-cjs-in-config": "off",
     "vue/html-self-closing": "off",
     "vue/max-attributes-per-line": "off",
     "vue/multiline-html-element-content-newline": "off",
     "vue/singleline-html-element-content-newline": "off",
     "vue/html-closing-bracket-newline": "off",
-    "sort-keys": "off",
 
     // Warning
     "array-bracket-spacing": ["warn"],
@@ -34,16 +37,14 @@ module.exports = {
     "space-infix-ops": ["warn"],
     "space-in-parens": ["warn"],
 
+    // Warning - Scoped
+
     // Error
     "arrow-parens": ["error", "as-needed", { requireForBlockBody: false }],
     "comma-dangle": ["error", "always-multiline"],
-    "import/extensions": ["error", "never"],
     indent: ["error", 2, { SwitchCase: 1, MemberExpression: 1 }],
     "keyword-spacing": ["error", { before: true }],
-    "max-lines": [
-      "error",
-      { max: 750, skipComments: true, skipBlankLines: true },
-    ], // increased heavily for inline jsdoc comment
+    "max-lines": ["error", { max: 750, skipComments: true, skipBlankLines: true }],
     "no-console": ["error", { allow: ["warn", "error", "info"] }],
     "no-else-return": ["error"],
     "no-param-reassign": ["error", { props: false }],
@@ -67,6 +68,8 @@ module.exports = {
       },
     ],
 
+    // Error -Scoped
+    "import/extensions": ["error", "never"],
     "vue/attributes-order": [
       "error",
       {

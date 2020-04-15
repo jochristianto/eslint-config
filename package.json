@@ -1,6 +1,6 @@
 {
   "name": "@jochristianto/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Jonathan's Base ESLint Config",
   "main": "index.js",
   "repository": {
@@ -15,6 +15,7 @@
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-nuxt": "^0.5.2",
     "eslint-plugin-vue": "^6.2.2"
   },
   "keywords": [
