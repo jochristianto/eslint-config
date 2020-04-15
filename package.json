@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-jochristianto-base",
+  "version": "0.0.1",
+  "description": "My Base ESLint Config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jochristianto/eslint-config-jochristianto-base"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^6.1.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2"
+  }
+}
