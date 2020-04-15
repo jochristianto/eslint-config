@@ -1,7 +1,6 @@
 # eslint-config
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-
 [![npm version](https://badge.fury.io/js/%40jochristianto%2Feslint-config.svg)](https://badge.fury.io/js/%40jochristianto%2Feslint-config)
 
 ESLint configuration for Jonathan's JS projects. This includes Vue, Nuxt, and Import eslint-plugin.
