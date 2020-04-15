@@ -1,6 +1,4 @@
 # eslint-config
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-
 ESLint configuration for Jonathan's JS projects. This includes Vue, Nuxt, and Import eslint-plugin.
 
 ## Installation
@@ -11,7 +9,7 @@ ESLint configuration for Jonathan's JS projects. This includes Vue, Nuxt, and Im
    $ yarn add @jochristianto/eslint-config --dev
 
     # If you are using NPM
-    $ npm install auto-update-env --save-dev
+    $ npm install @jochristianto/eslint-config --save-dev
    ```
 2. Add to the project's eslint config
    ```sh
@@ -21,3 +19,5 @@ ESLint configuration for Jonathan's JS projects. This includes Vue, Nuxt, and Im
        ]
    }
    ```
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
