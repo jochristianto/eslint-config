@@ -1,0 +1,7 @@
+{
+    "editor.minimap.maxColumn": 150,
+    "prettier.printWidth": 150,
+    "prettier.proseWrap": "never",
+    "prettier.quoteProps": "consistent",
+    "prettier.singleQuote": true
+}
