@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-jochristianto-base",
+  "name": "@jo.christianto/eslint-config-jochristianto-base",
   "version": "0.0.1",
   "description": "Jonathan's Base ESLint Config",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^6.1.0"
+    "eslint": ">= 6.1.0"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^14.1.0",

@@ -1,4 +1,4 @@
-# eslint-config-jochristianto-base
+# eslint-config
 
 ESLint configuration for Jonathan's JS projects.
 
@@ -6,13 +6,13 @@ ESLint configuration for Jonathan's JS projects.
 
 1. Install
    ```sh
-   $ yarn add eslint-config-jochristianto-base --dev
+   $ yarn add @jo.christianto/eslint-config --dev
    ```
 2. Add to the project's eslint config
    ```sh
    {
        "extends": [
-           "jochristianto-base"
+           "@jo.christianto"
        ]
    }
    ```
