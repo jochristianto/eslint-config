@@ -23,3 +23,14 @@ ESLint configuration for Jonathan's JS projects. This includes Vue, Nuxt, and Im
        "extends": [ "@jochristianto" ]
    }
    ```
+
+## Version History
+| Version | Release Date | Description |
+|---------|--------------|--------------------------------------------------------------------|
+| 1.0.0 | 2020-04-15 | - |
+| 1.0.1 | 2020-04-15 | Minor documentation update |
+| 1.0.2 | 2020-04-15 | Minor documentation update, and convert everything to single quote |
+| 1.0.3 | 2020-04-16 | Disable alphabetical order for `vue/attributes-order` |
+
+## Log Generator
+https://www.tablesgenerator.com/markdown_tables

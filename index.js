@@ -62,7 +62,6 @@ module.exports = {
     'vue/attributes-order': [
       'error',
       {
-        alphabetical: true,
         order: [
           'DEFINITION',
           'LIST_RENDERING',
@@ -76,6 +75,7 @@ module.exports = {
           'EVENTS',
           'CONTENT',
         ],
+        alphabetical: false,
       },
     ],
     'vue/component-tags-order': ['error', { order: ['template', 'script', 'style'] }],
