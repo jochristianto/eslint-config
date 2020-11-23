@@ -31,7 +31,7 @@ ESLint configuration for Jonathan's JS projects. This includes Vue, Nuxt, and Im
 | 1.0.1 | 2020-04-15 | Minor documentation update |
 | 1.0.2 | 2020-04-15 | Minor documentation update, and convert everything to single quote |
 | 1.0.3 | 2020-04-16 | Disable alphabetical order for `vue/attributes-order` |
-| 1.0.4 | 2020-11-23 | Update `import/extensions` to only be applied to .vue files, added `import/order`, and `vue/html-closing-bracket-spacing` |
+| 1.0.5 | 2020-11-23 | Update `import/extensions` to only be applied to .vue files, added `import/order`, and `vue/html-closing-bracket-spacing` |
 
 ## Log Generator
 https://www.tablesgenerator.com/markdown_tables
