@@ -58,7 +58,13 @@ module.exports = {
     ],
 
     // Error -Scoped
-    'import/extensions': ['error', 'never'],
+    'import/extensions': ['error', 'never', { vue: 'never', jpg: 'always', svg: 'always', png: 'always' }],
+    'import/order': [
+      'error',
+      {
+        groups: ['index', 'sibling', 'parent', 'internal', 'external', 'builtin'],
+      },
+    ],
     'vue/attributes-order': [
       'error',
       {
@@ -120,5 +126,6 @@ module.exports = {
     'vue/require-name-property': ['error'],
     'vue/this-in-template': ['error', 'never'],
     'vue/v-on-function-call': ['error', 'never'],
+    'vue/html-closing-bracket-spacing': ['error', { selfClosingTag: 'always' }],
   },
 };
